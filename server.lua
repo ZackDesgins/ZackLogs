@@ -1,11 +1,11 @@
 -- Server-Side Script with Webhooks for FiveM Logs
 
 -- Replace these with your actual Discord Webhook URLs
-local connectionWebhook = "https://discord.com/api/webhooks/1284148786779914326/kkUGEs6ZrUgewKxmKfoSwdqgmL6UiByml74HjArg0YhVSSHrqF3O_HwPliZ-V-qAJui-"
-local chatWebhook = "https://discord.com/api/webhooks/1284148549797281922/5-nRJtL0oW3AHZFSFBgWIxc9CEUGIyPg1U3mK1GBwVsZEmQo79FnIURTuYdajkUX3_tS"
-local banWebhook = "https://discord.com/api/webhooks/1284148928802979961/FihrZFqrMKtSh-KOkJrmTd8MK-1l0R2dqkGjPizDWb6kpx56Q7LhcwwzKj3oibOAdBQX"
-local kickWebhook = "https://discord.com/api/webhooks/1284149081266061373/Cxwrya5HS_B4NM0REYI3jPvEK5G7dBu9wpkvE4WhDCQ_4YWOlcdVlfhYAEWgb-EXwm9v"
-local leavingWebhook = "https://discord.com/api/webhooks/1284149196638650378/66jXEpEKghY6NWExljHcOjszHuRjNkbRofze09vZ94S-u38O8HUTSn12r2ZiPWgiXF25"
+local connectionWebhook = "DISCORD_WEBHOOK_HERE"
+local chatWebhook = "DISCORD_WEBHOOK_HERE"
+local banWebhook = "DISCORD_WEBHOOK_HERE"
+local kickWebhook = "DISCORD_WEBHOOK_HERE"
+local leavingWebhook = "DISCORD_WEBHOOK_HERE"
 
 -- Function to send logs to Discord webhook
 function sendToDiscord(webhook, message)
